@@ -1,6 +1,6 @@
 import { NextSeo } from 'next-seo';
 
-const home = () => (
+const index = () => (
   <>
     <NextSeo
       title="فاطمه آقاجانی | طراح گرافیک و رابط کاربری"
@@ -10,4 +10,4 @@ const home = () => (
   </>
 );
 
-export default home;
+export default index;
