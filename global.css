@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "IRANSans";
+  src: url("./public/fonts/IRANSans-Light-web_0.ttf");
+}
+
+@font-face {
+  font-family: "IR Sans-L";
+  src: url("./public/fonts/IRANSans-Light-web_0.ttf");
+}
+
+@font-face {
+  font-family: "IR Sans-M";
+  src: url("./public/fonts/IRANSans-Medium-web_0.ttf");
+}
+
+@font-face {
+  font-family: "IR Sans-B";
+  src: url("./public/fonts/IRANSans-Bold-web_0.ttf");
+}
