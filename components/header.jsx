@@ -1,19 +1,23 @@
-
+import { useState } from "react"
 const header = () => {
 
+
+    const [menuStatus, setMenuStatus] = useState("h-0");
+
     const handleOpenCloseMenu = () => {
-        if (document.getElementById('menu').classList.contains("hidden"))
+
+        if (document.getElementById('menu').classList.contains("h-0"))
         {
-            document.getElementById('menu').classList.remove("hidden")
+            setMenuStatus("h-[156px]")
         } else
         {
-            document.getElementById('menu').classList.add("hidden")
+            setMenuStatus("h-0")
         }
     }
     return (
         <>
             <nav dir="rtl" class=" bg-[#111] py-5">
-                <div className="w-full md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1024px] 2xl:max-w-[1024px] 3xl:max-w-[1280px] mx-auto">
+                <div className="w-full md:max-w-[768px]  lg:max-w-[1024px] xl:max-w-[1024px] 2xl:max-w-[1024px] 3xl:max-w-[1280px] mx-auto">
                     <div className="flex items-center justify-between flex-wrap">
                         <div class="flex items-center flex-shrink-0 text-white ml-6">
                             <img width="54" height="54" src="../assets/fatimaLogo.png" />
@@ -24,7 +28,7 @@ const header = () => {
                                 <svg class="fill-current text-white h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
                             </button>
                         </div>
-                        <div id="menu" class="w-full hidden  flex-grow lg:flex text-white lg:items-center lg:w-auto">
+                        <div id="menu" class={`w-full ${menuStatus} transition-all ease-linear duration-300 flex-grow lg:flex text-white lg:items-center lg:w-auto`}>
                             <div class="text-sm flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:flex-grow font-IranSansMedium">
                                 <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:ml-4">
                                     درباره من
