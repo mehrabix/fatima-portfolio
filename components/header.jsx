@@ -26,10 +26,10 @@ const header = () => {
                         </div>
                         <div id="menu" class="w-full hidden  flex-grow lg:flex text-white lg:items-center lg:w-auto">
                             <div class="text-sm flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:flex-grow font-IranSansMedium">
-                                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white ml-4">
+                                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:ml-4">
                                     درباره من
                                 </a>
-                                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white ml-4">
+                                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:ml-4">
                                     نمونه کارها
                                 </a>
                                 <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
