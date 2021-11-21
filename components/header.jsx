@@ -17,7 +17,7 @@ const header = () => {
                     <div className="flex items-center justify-between flex-wrap">
                         <div class="flex items-center flex-shrink-0 text-white ml-6">
                             <img width="54" height="54" src="../assets/fatimaLogo.png" />
-                            <span class="font-IranSansMedium text-xl tracking-tight">فاطمه آقاجانی</span>
+                            <h1 class="font-IranSansMedium text-xl tracking-tight">فاطمه آقاجانی</h1>
                         </div>
                         <div class="block lg:hidden">
                             <button onClick={() => handleOpenCloseMenu()} class="flex items-center px-3 py-2 border rounded text-teal-200 ml-3 border-teal-400 hover:text-white hover:border-white">
