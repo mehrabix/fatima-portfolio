@@ -10,7 +10,7 @@ const header = (props) => {
 
         if (document.getElementById('menu').classList.contains("h-0"))
         {
-            setMenuStatus("h-[156px]")
+            setMenuStatus("h-[175px]")
         } else
         {
             setMenuStatus("h-0")
@@ -18,7 +18,7 @@ const header = (props) => {
     }
     return (
         <>
-            <nav dir={props.dir} className=" bg-[#FF0066] py-5">
+            <nav dir={props.dir} className=" bg-[#FF0066] py-4  lg:py-5">
                 <div className="w-full md:max-w-[768px]  lg:max-w-[1024px] xl:max-w-[1024px] 2xl:max-w-[1024px] 3xl:max-w-[1280px] mx-auto">
                     <div className="flex items-center justify-between flex-wrap">
                         <div className="flex items-center flex-shrink-0 text-white mx-6">
@@ -31,7 +31,7 @@ const header = (props) => {
                             </button>
                         </div>
                         <div id="menu" className={`w-full ${menuStatus} transition-all ease-linear duration-300 flex-grow lg:flex text-white lg:items-center lg:w-auto`}>
-                            <div className="text-sm gap-x-4 gap-y-4 mt-4 lg:mt-0  flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:flex-grow font-IranSansMedium">
+                            <div className="text-sm gap-x-4 gap-y-6 mt-5 lg:mt-0  flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:flex-grow font-IranSansMedium">
                                 <Link href={props.aboutMeLink} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:ml-4">
                                     {props.aboutMeText}
                                 </Link>
