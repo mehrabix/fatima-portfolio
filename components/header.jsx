@@ -31,7 +31,7 @@ const header = (props) => {
                             </button>
                         </div>
                         <div id="menu" className={`w-full ${menuStatus} transition-all ease-linear duration-300 flex-grow lg:flex text-white lg:items-center lg:w-auto`}>
-                            <div className="text-sm gap-x-4 gap-y-4 mt-4 md:mt-0  flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:flex-grow font-IranSansMedium">
+                            <div className="text-sm gap-x-4 gap-y-4 mt-4 lg:mt-0  flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:flex-grow font-IranSansMedium">
                                 <Link href={props.aboutMeLink} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:ml-4">
                                     {props.aboutMeText}
                                 </Link>
@@ -42,7 +42,7 @@ const header = (props) => {
                                     {props.blogText}
                                 </Link>
                             </div>
-                            <div className="flex mt-4 md:mt-0 justify-center font-IranSansMedium gap-x-4">
+                            <div className="flex mt-4 lg:mt-0 justify-center font-IranSansMedium gap-x-4">
                                 <Link href={props.contactLink} className="inline-block text-sm px-4 py-2 font-IranSansMedium leading-none border rounded text-white border-white  hover:text-teal-500  mt-4 lg:mt-0">{props.contactText}</Link>
                                 <Link href={props.langLink} className="inline-block text-sm px-4 py-2 font-IranSansMedium leading-none border rounded text-white border-white  hover:text-teal-500  mt-4 lg:mt-0">{props.langText}</Link>
 

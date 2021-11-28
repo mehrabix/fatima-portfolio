@@ -1,7 +1,10 @@
 import { NextSeo } from 'next-seo';
 import Header from '../components/header';
 
-const index = () => (
+const index = () => {
+
+  return(
+  
   <>
     <NextSeo
       title="فاطمه آقاجانی | طراح گرافیک و رابط کاربری"
@@ -19,9 +22,10 @@ const index = () => (
       contactText="تماس با ما"
       contactLink="#"
       langText="EN"
-      langLink="#"
+      langLink="/en"
     />
   </>
-);
+)
+};
 
 export default index;

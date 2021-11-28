@@ -20,7 +20,7 @@ const index = () => {
         contactText="Contact"
         contactLink="#"
         langText="FA"
-        langLink="#"
+        langLink="/"
       />
     </>
   );
