@@ -18,7 +18,7 @@ const header = (props) => {
     }
     return (
         <>
-            <nav dir={props.dir} className=" bg-[#FF0066]  py-4  lg:py-5">
+            <nav dir={props.dir} className=" bg-fatimaRazzmatazz  py-4  lg:py-5">
                 <div className="w-full md:max-w-[768px]  lg:max-w-[1024px] xl:max-w-[1024px] 2xl:max-w-[1024px] 3xl:max-w-[1280px] mx-auto">
                     <div className="flex items-center overflow-hidden justify-between flex-wrap">
                         <div className="flex items-center flex-shrink-0 text-white mx-6">

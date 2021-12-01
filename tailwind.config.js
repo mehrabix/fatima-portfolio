@@ -1,9 +1,14 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  mode: "jit",
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: true, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundColor: {
+        fatimaMagenta: "#EE00FF",
+        fatimaRazzmatazz: "#FF0066",
+        fatimaOrangeRed: "#FF4400",
+      },
       fontFamily: {
         IranSansNormal: ["IRANSans"],
         IranSansLarge: ["IR Sans-L"],
@@ -49,5 +54,5 @@ module.exports = {
       extend: {},
     },
     plugins: [],
-  }
-}
+  },
+};
